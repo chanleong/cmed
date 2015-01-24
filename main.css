@@ -1,0 +1,38 @@
+@import "/resources/css/foundation.css";
+
+.top-bar{
+	background-color: #009933;
+}
+
+.top-bar-section li:not(.has-form) a:not(.button) {
+	background-color: #009933;
+}
+
+.top-bar-section li:not(.has-form) a:not(.button):hover {
+	background: #335C33;
+}
+
+.top-bar-section li.active:not(.has-form) a:not(.button){
+	background: #335C33;
+}
+
+.top-bar-section li.active:not(.has-form) a:not(.button):hover{
+	background: #335C33;
+}
+
+body{
+	background-color: #fbfffb;
+}
+
+.bdr{
+	padding: 5px 5px 5px 5px; 
+	border: 2px; 
+	border-color: black; 
+	border-style: solid;
+}
+
+img.centre {
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
+}
